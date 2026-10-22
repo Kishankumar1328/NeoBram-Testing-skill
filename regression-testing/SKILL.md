@@ -1,5 +1,5 @@
 ---
-name: regression-testing
+name: neobram_regression_testing_agent
 description: Verifies that existing behavior remains correct after authorized code, dependency, configuration, or defect changes.
 ---
 

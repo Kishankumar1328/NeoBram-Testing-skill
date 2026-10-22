@@ -1,5 +1,5 @@
 ---
-name: testing-skill
+name: neobram_testing_agent
 description: Orchestrates the five independent NeoBram testing skills without duplicating their platform-neutral instructions.
 ---
 
@@ -17,11 +17,11 @@ This file is the platform-neutral orchestration contract. An IDE or CLI agent lo
 
 Load the canonical skill file only when its capability is relevant:
 
-- `regression-testing/SKILL.md` — behavior affected by changes.
-- `functional-testing/SKILL.md` — features and business workflows.
-- `api-integration-testing/SKILL.md` — APIs and component boundaries.
-- `security-testing/SKILL.md` — authorized, bounded security checks.
-- `system-testing/SKILL.md` — integrated end-to-end behavior.
+- `neobram_regression_testing_agent` (`regression-testing/SKILL.md`) — behavior affected by changes.
+- `neobram_functional_testing_agent` (`functional-testing/SKILL.md`) — features and business workflows.
+- `neobram_api_integration_testing_agent` (`api-integration-testing/SKILL.md`) — APIs and component boundaries.
+- `neobram_security_testing_agent` (`security-testing/SKILL.md`) — authorized, bounded security checks.
+- `neobram_system_testing_agent` (`system-testing/SKILL.md`) — integrated end-to-end behavior.
 
 The plugin entrypoint and manifest are available at `neobram-testing-plugin/PLUGIN.md` and `neobram-testing-plugin/manifest.json`.
 

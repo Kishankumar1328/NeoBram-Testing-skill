@@ -8,11 +8,11 @@
   "pathBase": "repository-root",
   "distribution": "repository-level",
   "skills": [
-    { "id": "regression-testing", "path": "regression-testing/SKILL.md" },
-    { "id": "functional-testing", "path": "functional-testing/SKILL.md" },
-    { "id": "api-integration-testing", "path": "api-integration-testing/SKILL.md" },
-    { "id": "security-testing", "path": "security-testing/SKILL.md" },
-    { "id": "system-testing", "path": "system-testing/SKILL.md" }
+    { "id": "neobram_regression_testing_agent", "path": "regression-testing/SKILL.md" },
+    { "id": "neobram_functional_testing_agent", "path": "functional-testing/SKILL.md" },
+    { "id": "neobram_api_integration_testing_agent", "path": "api-integration-testing/SKILL.md" },
+    { "id": "neobram_security_testing_agent", "path": "security-testing/SKILL.md" },
+    { "id": "neobram_system_testing_agent", "path": "system-testing/SKILL.md" }
   ],
   "runtimeDependencies": [],
   "compatibility": {

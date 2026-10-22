@@ -1,5 +1,5 @@
 ---
-name: functional-testing
+name: neobram_functional_testing_agent
 description: Validates application features and business workflows against discovered requirements and observable behavior.
 ---
 

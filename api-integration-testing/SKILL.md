@@ -1,5 +1,5 @@
 ---
-name: api-integration-testing
+name: neobram_api_integration_testing_agent
 description: Validates APIs and communication between application components, persistence layers, and external dependencies using discovered contracts and safe environments.
 ---
 

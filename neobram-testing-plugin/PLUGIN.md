@@ -11,11 +11,11 @@ An agent loads this file as the portable-bundle entrypoint, reads `manifest.json
 
 ## Available skills
 
-- `regression-testing`: checks behavior affected by changes.
-- `functional-testing`: checks features and business workflows.
-- `api-integration-testing`: checks APIs and component boundaries.
-- `security-testing`: performs authorized, bounded security checks.
-- `system-testing`: checks integrated end-to-end behavior.
+- `neobram_regression_testing_agent`: checks behavior affected by changes.
+- `neobram_functional_testing_agent`: checks features and business workflows.
+- `neobram_api_integration_testing_agent`: checks APIs and component boundaries.
+- `neobram_security_testing_agent`: performs authorized, bounded security checks.
+- `neobram_system_testing_agent`: checks integrated end-to-end behavior.
 
 ## Invocation contract
 

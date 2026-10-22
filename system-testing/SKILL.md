@@ -1,5 +1,5 @@
 ---
-name: system-testing
+name: neobram_system_testing_agent
 description: Validates the integrated application through critical end-to-end workflows, startup behavior, cross-component consistency, and specified failure or non-functional expectations.
 ---
 

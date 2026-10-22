@@ -1,5 +1,5 @@
 ---
-name: security-testing
+name: neobram_security_testing_agent
 description: Performs authorized, bounded, non-destructive security checks against discovered application surfaces and reports evidence-backed risks.
 ---
 
