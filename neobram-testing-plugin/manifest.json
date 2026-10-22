@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "neobram-testing",
+  "name": "NeoBram Testing Skills",
+  "version": "1.0.0",
+  "description": "Portable, evidence-driven software testing skills for IDE and CLI coding agents.",
+  "entrypoint": "neobram-testing-plugin/PLUGIN.md",
+  "pathBase": "repository-root",
+  "distribution": "repository-level",
+  "skills": [
+    { "id": "regression-testing", "path": "regression-testing/SKILL.md" },
+    { "id": "functional-testing", "path": "functional-testing/SKILL.md" },
+    { "id": "api-integration-testing", "path": "api-integration-testing/SKILL.md" },
+    { "id": "security-testing", "path": "security-testing/SKILL.md" },
+    { "id": "system-testing", "path": "system-testing/SKILL.md" }
+  ],
+  "runtimeDependencies": [],
+  "compatibility": {
+    "mode": "host-loaded-project-instructions",
+    "automaticAdapters": false,
+    "runtimeValidated": false,
+    "intendedHosts": ["vscode", "cursor", "antigravity", "codex", "claude-code", "other-ide-or-cli-agents"]
+  }
+}
