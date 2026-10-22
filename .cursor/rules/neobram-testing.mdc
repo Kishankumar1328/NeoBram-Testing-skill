@@ -1,0 +1,16 @@
+---
+description: Use the NeoBram testing skills and CLI for project-aware software testing.
+globs: "**/*"
+alwaysApply: false
+---
+
+# NeoBram Testing
+
+When the user requests testing, load the relevant canonical skill from `skills/` and follow it completely. Use `skills/testing-orchestrator/SKILL.md` for multi-category requests. Use the repository CLI when execution is needed:
+
+```bash
+node cli/neobram-test.mjs validate
+node cli/neobram-test.mjs analyze --project .
+```
+
+Do not claim runtime test results unless a command actually ran. Preserve PASS, FAIL, BLOCKED, NOT_RUN, and INCONCLUSIVE distinctions. Do not expose secrets or modify product code without authorization.
